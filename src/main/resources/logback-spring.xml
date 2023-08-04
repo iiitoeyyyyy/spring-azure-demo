@@ -18,6 +18,7 @@
     </appender>
 
     <root level="info">
+        <appender-ref ref = "aiAppender" />
         <appender-ref ref="CONSOLE"/>
     </root>
 </configuration>
