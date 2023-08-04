@@ -29,6 +29,10 @@ public class DemoApplicationAzureController {
     ){
         String message = "Hello " + name;
         log.info("Hello Message");
+        log.info("info2");
+        log.debug("Debug");
+        log.warn("warning");
+        log.error("error");
         return new ResponseEntity<String>(message, HttpStatus.OK);
     }
 }
