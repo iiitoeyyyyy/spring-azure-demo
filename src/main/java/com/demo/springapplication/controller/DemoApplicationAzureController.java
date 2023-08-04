@@ -28,6 +28,7 @@ public class DemoApplicationAzureController {
             @PathVariable("name") String name
     ){
         String message = "Hello " + name;
+        log.warn("Hello Message");
         return new ResponseEntity<String>(message, HttpStatus.OK);
     }
 }
