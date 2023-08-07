@@ -17,8 +17,8 @@
               class="com.microsoft.applicationinsights.logback.ApplicationInsightsAppender">
     </appender>
 
-    <root level="info">
-        <appender-ref ref = "aiAppender" />
+    <root level="debug">
+        <appender-ref ref ="aiAppender" />
         <appender-ref ref="CONSOLE"/>
     </root>
 </configuration>
